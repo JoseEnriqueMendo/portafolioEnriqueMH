@@ -1,0 +1,52 @@
+[
+  {
+    "img_url": "/icons/js.svg",
+    "name": "Javascript",
+    "size": ""
+  },
+  {
+    "img_url": "/icons/ts.svg",
+    "name": "Typescript",
+    "size": ""
+  },
+  {
+    "img_url": "/icons/react.svg",
+    "name": "React",
+    "size": ""
+  },
+  {
+    "img_url": "/icons/redux.svg",
+    "name": "Redux",
+    "size": ""
+  },
+  {
+    "img_url": "/icons/postgres.svg",
+    "name": "PostgreSQL",
+    "size": ""
+  },
+  {
+    "img_url": "/icons/mongodb.svg",
+    "name": "MongoDB",
+    "size": ""
+  },
+  {
+    "img_url": "/icons/tailwind.svg",
+    "name": "Tailwind CSS",
+    "size": ""
+  },
+  {
+    "img_url": "/icons/postman.svg",
+    "name": "Postman",
+    "size": ""
+  },
+  {
+    "img_url": "/icons/express.svg",
+    "name": "Express JS",
+    "size": "size-20 p-1 bg-white rounded-md "
+  },
+  {
+    "img_url": "/icons/sequelize.svg",
+    "name": "Sequalize ORM",
+    "size": "size-20"
+  }
+]

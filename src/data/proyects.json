@@ -1,0 +1,99 @@
+[
+  {
+    "nameProyect": "Brisas Marinas Backend",
+    "abstractProyect": "Brisas Marinas Backend: Servicio integral que gestiona datos para Brisa Admin y Cliente, optimizando la experiencia y operaciones de la cevichería online.",
+    "imgProyect": "imgs/brisasImgBE.png",
+    "toolsProyect": ["/icons/js.svg", "/icons/postgres.svg", "/icons/postman.svg"],
+    "urlCode": "https://github.com/JoseEnriqueMendo/BrisasMarinasBE",
+    "urlLive": "",
+    "type": "backend"
+  },
+  {
+    "nameProyect": "Estatery Landing page",
+    "abstractProyect": "Estatery Landing Page es una plataforma informativa para la compra, venta y renta de propiedades, mostrando ofertas disponibles de alquileres.",
+    "imgProyect": "imgs/landingPageScreen.png",
+    "toolsProyect": [
+      "/icons/js.svg",
+      "/icons/react.svg",
+      "/icons/tailwind.svg",
+      "/icons/vite.svg"
+    ],
+    "urlCode": "https://github.com/JoseEnriqueMendo/EstateryLandingPage",
+    "urlLive": "https://estatery-landin-git-49a8bb-jose-enrique-mendo-huapayas-projects.vercel.app/home",
+    "type": "frontend"
+  },
+  {
+    "nameProyect": "SoundBox",
+    "abstractProyect": "SoundBox es una plataforma web de música que utiliza la API de Spotify para permitir a los usuarios explorar y gestionar playlists y álbumes. Ofrece una experiencia intuitiva para descubrir y compartir música.",
+    "imgProyect": "imgs/soundoBox_img.png",
+    "toolsProyect": [
+      "/icons/ts.svg",
+      "/icons/react.svg",
+      "/icons/tailwind.svg",
+      "/icons/vite.svg",
+      "/icons/redux.svg"
+    ],
+    "urlCode": "https://github.com/JoseEnriqueMendo/MusicPro",
+    "urlLive": "https://soundbox-sigma.vercel.app/musicPro/home",
+    "type": "frontend"
+  },
+
+  {
+    "nameProyect": "Brisas Marinas Admin Web",
+    "abstractProyect": "Brisas Marinas Admin Web: gestiona menú, categorías y pedidos de una cevichería online, facilitando la administración y experiencia del usuario.",
+    "imgProyect": "imgs/brisasMarinasAdm.png",
+    "toolsProyect": [
+      "/icons/react.svg",
+      "/icons/vite.svg",
+      "/icons/html.svg",
+      "/icons/css.svg"
+    ],
+    "urlCode": "https://github.com/JoseEnriqueMendo/BrisasMarinasFE-ADM",
+    "urlLive": "https://brisas-marinas-fe-adm.vercel.app",
+    "type": "frontend"
+  },
+  {
+    "nameProyect": "Brisas Marinas cliente Web",
+    "abstractProyect": "Brisas Marinas Cliente Web: Explora y compra platos marinos con navegación intuitiva, mejorando la experiencia y alcanze de la cevichería.",
+    "imgProyect": "imgs/brisasImgCli.png",
+    "toolsProyect": [
+      "/icons/react.svg",
+      "/icons/vite.svg",
+      "/icons/ts.svg",
+      "/icons/html.svg",
+      "/icons/css.svg"
+    ],
+    "urlCode": "https://github.com/JoseEnriqueMendo/BrisasMarinasFE-CLI",
+    "urlLive": "https://brisas-marinas-fe-cli.vercel.app/",
+    "type": "frontend"
+  },
+  {
+    "nameProyect": "Cooking Proyect BE",
+    "abstractProyect": "Proyecto Cooking BE: Aloja servicios de  gestión, autenticación de usuarios, el almacenamiento y la búsqueda de recetas, e integra una búsqueda dinámica para una página de recetas.",
+    "imgProyect": "/imgs/img_cookingRecipesWebBE.png",
+    "toolsProyect": [
+      "/icons/js.svg",
+      "/icons/postgres.svg",
+      "/icons/sequelize.svg",
+      "/icons/postman.svg"
+    ],
+    "urlCode": "https://github.com/JoseEnriqueMendo/cookingRecipesWebBE",
+    "urlLive": "",
+    "type": "backend"
+  },
+  {
+    "nameProyect": "Cooking Proyect Web",
+    "abstractProyect": "Cooking Proyect Web: Página de recetas que permite la creación, búsqueda y edición de recetas de manera eficiente, con funcionalidades como gestión de favoritos y una interfaz amigable para usuarios.",
+    "imgProyect": "/imgs/img_cookingRecipesWebFE.png",
+    "toolsProyect": [
+      "/icons/react.svg",
+      "/icons/vite.svg",
+      "/icons/html.svg",
+      "/icons/tailwind.svg",
+      "/icons/redux.svg"
+    ],
+    "urlCode": "https://github.com/asem210/CookingFrontend",
+    "urlLive": "https://cooking-frontend.vercel.app/cooking/home",
+    "type": "frontend"
+  }
+]
