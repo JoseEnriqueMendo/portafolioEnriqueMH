@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-//
+//ads
 import { FaGithub } from 'react-icons/fa';
 import { FaLink } from 'react-icons/fa';
 import React from 'react';
