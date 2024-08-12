@@ -61,7 +61,7 @@ const Contact = () => {
           '/icons/linkedin.svg',
           'https://www.linkedin.com/in/jose-enrique-mendo-huapaya-0758ab261/'
         )}
-        {socialCards('Github', '/icons/ts.svg', 'https://github.com/JoseEnriqueMendo')}
+        {socialCards('Github', '/icons/github.svg', 'https://github.com/JoseEnriqueMendo')}
         {socialCards('Twitter', '/icons/twitter.svg', '')}
       </div>
     </section>
