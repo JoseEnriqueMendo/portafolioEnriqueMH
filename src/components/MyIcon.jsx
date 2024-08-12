@@ -1,7 +1,7 @@
 const MyIcon = () => {
   return (
     <a
-      className="text-white font-Inter text-2xl font-bold cursor-pointer flex flex-row gap-2 items-center"
+      className="text-white font-Inter text-2xl font-bold cursor-pointer flex flex-row gap-2 items-center max-sm:text-xl "
       href="#top"
     >
       <img

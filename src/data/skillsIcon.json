@@ -42,11 +42,11 @@
   {
     "img_url": "/icons/express.svg",
     "name": "Express JS",
-    "size": "size-20 p-1 bg-white rounded-md "
+    "size": "size-20 p-1 bg-white rounded-md max-md:p-0 max-sm:size-16"
   },
   {
     "img_url": "/icons/sequelize.svg",
     "name": "Sequalize ORM",
-    "size": "size-20"
+    "size": "size-20 max-sm:size-16"
   }
 ]

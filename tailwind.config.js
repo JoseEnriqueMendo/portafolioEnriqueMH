@@ -23,13 +23,23 @@ module.exports = {
         '100%': { transform: 'scale(1.2)' },
       },
       scaleDown: {
-        '0%': { transform: 'scale(1.2)' },
+        '0%': { transform: 'scale(1.2) ' },
         '100%': { transform: 'scale(1)' },
+      },
+      slideInFromLeft: {
+        '0%': { transform: 'translateX(100%)' },
+        '100%': { transform: 'translateX(0)' },
+      },
+      slideOutToLeft: {
+        '0%': { transform: 'translateX(0)' },
+        '100%': { transform: 'translateX(-100%)' },
       },
     },
     animation: {
       scaleUp: 'scaleUp 0.5s ease-in-out forwards',
       scaleDown: 'scaleDown 0.5s ease-in-out forwards',
+      slideInFromLeft: 'slideInFromLeft 0.5s ease-out',
+      slideOutToLeft: 'slideOutToLeft 0.5s ease-out',
     },
   },
   plugins: [],

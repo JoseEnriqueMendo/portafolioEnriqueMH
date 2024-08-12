@@ -7,7 +7,7 @@ const Contact = () => {
   const socialCards = (name, icon, url) => {
     return (
       <a
-        className="flex flex-row gap-2 px-2 py-1 items-center hover:bg-gray-950 rounded-md min-w-32 justify-center hover:opacity-80 max-sm:px-10 mx-auto"
+        className="flex flex-row gap-2 px-2 py-1  items-center hover:bg-gray-950 rounded-md min-w-32 justify-center hover:opacity-80  mx-auto max-sm:text-xl"
         href={url}
         target="_blank"
       >
@@ -19,7 +19,7 @@ const Contact = () => {
 
   return (
     <section
-      className="flex flex-col gap-5  py-10  px-20 font-Inter items-center  text-white w-full "
+      className="flex flex-col gap-5  py-10  px-20 max-sm:px-10 font-Inter items-center  text-white w-full "
       id="section-contact"
     >
       <div className="bg-[#374161] py-1 px-5 rounded-xl opacity-80">Contactos</div>
@@ -31,7 +31,7 @@ const Contact = () => {
       </p>
       <div className="flex flex-row gap-2">
         <MdOutlineEmail className="text-gray-200 size-6 " />
-        <p id="email" className="text-2xl">
+        <p id="email" className="text-2xl max-sm:text-[18px] max-[370px]:text-base">
           enriquemendohuapaya@gmail.com
         </p>
         <FiCopy
@@ -43,7 +43,7 @@ const Contact = () => {
       </div>
       <div className="flex flex-row gap-2">
         <IoCallOutline className="text-gray-200 size-6 " />
-        <p id="telefono" className="text-2xl">
+        <p id="telefono" className="text-2xl  max-sm:text-[18px] max-[370px]:text-base">
           +51 974656883
         </p>
         <FiCopy
@@ -55,7 +55,7 @@ const Contact = () => {
       </div>
       <p className="opacity-80">¡También puedes encontrarme en estas plataformas!</p>
 
-      <div className="flex flex-row gap-3">
+      <div className="flex flex-row gap-3 max-sm:flex-col mt-2">
         {socialCards(
           'Linkedin',
           '/src/assets/linkedin.svg',

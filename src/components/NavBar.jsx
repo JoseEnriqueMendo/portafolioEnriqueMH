@@ -2,12 +2,24 @@ import MyIcon from './MyIcon';
 import { RiMoonClearLine } from 'react-icons/ri';
 import { downloadFile } from '../utils/tools';
 import { IoMenu } from 'react-icons/io5';
-
+import SubmenuModal from './SubmenuModal';
+import { useState } from 'react';
 const NavBar = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = () => {
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+  };
+
   return (
-    <nav className="w-full  flex flex-row gap-2 text-white max-h-[8vh] min-h-[8vh] h-[8vh] overflow-hidden p-1 px-10  items-center justify-between sticky top-0 z-50 bg-black ">
+    <nav className="w-full  flex flex-row gap-2 text-white max-h-[8vh] min-h-[8vh] h-[8vh] overflow-hidden p-1 px-10  max-sm:px-5  max-[370px]:px-3    items-center justify-between sticky top-0 z-50 bg-black ">
+      <SubmenuModal isOpen={isModalOpen} onClose={closeModal}></SubmenuModal>
       <MyIcon></MyIcon>
-      <div className="hidden max-lg:block ">
+      <div className="hidden max-lg:block " onClick={openModal}>
         <IoMenu className="size-10 cursor-pointer" />
       </div>
       <div className="h-full items-center flex flex-row w-3/4  justify-end gap-4 font-Inter max-lg:hidden">
