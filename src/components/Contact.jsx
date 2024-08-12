@@ -58,11 +58,15 @@ const Contact = () => {
       <div className="flex flex-row gap-3 max-sm:flex-col mt-2">
         {socialCards(
           'Linkedin',
-          '/icons/linkedin.svg',
+          '../../public/icons/linkedin.svg',
           'https://www.linkedin.com/in/jose-enrique-mendo-huapaya-0758ab261/'
         )}
-        {socialCards('Github', '/icons/github.svg', 'https://github.com/JoseEnriqueMendo')}
-        {socialCards('Twitter', '/icons/twitter.svg', '')}
+        {socialCards(
+          'Github',
+          '../../public/icons/github.svg',
+          'https://github.com/JoseEnriqueMendo'
+        )}
+        {socialCards('Twitter', '../../public/icons/twitter.svg', '')}
       </div>
     </section>
   );
